@@ -1,0 +1,33 @@
+header {
+    width: 100%;
+    padding: 15px 3%;
+}
+
+.navBar {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navBar {
+    font-size: 13px;
+    color: white;
+}
+
+#links {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+#links-name a {
+    text-decoration: none;
+    color: white;
+
+    transition: ease 0.3s;
+}
+
+#links-name a:hover {
+    text-shadow: 0 0 15px #ffffff;  
+}
